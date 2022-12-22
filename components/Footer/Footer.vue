@@ -72,9 +72,9 @@
                   v-for="(item, index) in footer.description"
                   :key="index"
                 >
-                  <nuxt-link :to="footer.link[index]">
+                  <a :href="footer.link[index]" target="_blank">
                     {{ item }}
-                  </nuxt-link>
+                  </a>
                 </li>
               </ul>
             </v-col>
@@ -153,7 +153,7 @@ export default {
       {
         title: 'Pomagają nam',
         description: ['I love rolki', 'Hedonskate', 'Intruz'],
-        link: ['#team', '#history', '#contact-us', '#locations']
+        link: ['https://iloverolki.pl/', 'https://hedonskate.com/', 'https://intruz.com/']
       },
       {
         title: 'Social media',

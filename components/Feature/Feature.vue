@@ -11,7 +11,6 @@
         <v-col sm="6" class="px-8">
           <div class="counter-item">
             <figure>
-              <img src="/images/education/hd-video.svg" alt="hd-video"/>
             </figure>
             <div class="text" v-if="loaded">
               <h4 class="use-text-title">
@@ -33,7 +32,6 @@
         <v-col sm="6" class="px-8">
           <div class="counter-item">
             <figure>
-              <img src="/images/education/presenter.svg" alt="presenter"/>
             </figure>
             <div class="text" v-if="loaded">
               <h4 class="use-text-title">
@@ -52,10 +50,9 @@
             </div>
           </div>
         </v-col>
-        <v-col sm="6" class="px-8">
+        <v-col sm="6" class="px-8" offset="3">
           <div class="counter-item">
             <figure>
-              <img src="/images/education/money.svg" alt="money"/>
             </figure>
             <div class="text" v-if="loaded">
               <h4 class="use-text-title">
@@ -74,19 +71,18 @@
             </div>
           </div>
         </v-col>
-        <v-col sm="6" class="px-8">
-          <div class="counter-item">
-            <figure>
-              <img src="/images/education/unlimited.svg" alt="unlimited"/>
-            </figure>
-            <div class="text" v-if="loaded">
-              <h4 class="use-text-title">Free</h4>
-              <h6 class="use-text-subtitle2">
-                Tu coś tkliwego
-              </h6>
-            </div>
-          </div>
-        </v-col>
+<!--        <v-col sm="6" class="px-8">-->
+<!--          <div class="counter-item">-->
+<!--            <figure>-->
+<!--            </figure>-->
+<!--            <div class="text" v-if="loaded">-->
+<!--              <h4 class="use-text-title">2</h4>-->
+<!--              <h6 class="use-text-subtitle2">-->
+<!--                Tu coś tkliwego-->
+<!--              </h6>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </v-col>-->
       </v-row>
     </v-container>
   </div>

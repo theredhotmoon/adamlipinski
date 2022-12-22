@@ -68,6 +68,7 @@
     padding-bottom: section-margin(6px);
   }
 }
+
 .space-bottom-short {
   padding-bottom: section-margin($spacing1 * 0.5);
 }
