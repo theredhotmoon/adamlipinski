@@ -1,11 +1,11 @@
 const brand = {
   education: {
-    name: 'Education',
-    desc: 'Veluxi Education - Vue Single Landing Page Template',
-    prefix: 'veluxi',
-    footerText: 'Veluxi Theme 2021',
-    logoText: 'Veluxi Education',
-    projectName: 'Education',
+    name: 'Adaś Lipiński',
+    desc: 'Pomóż Adasiowi',
+    prefix: 'adas-lipinski',
+    footerText: 'Adaś Lipinski 2022',
+    logoText: '',
+    projectName: 'Adaś Lipiński',
     url: 'veluxi.ux-maestro.com/education',
     notifMsg:
       'Donec sit amet nulla sed arcu pulvinar ultricies commodo id ligula.'

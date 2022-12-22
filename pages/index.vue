@@ -125,7 +125,7 @@ export default {
   },
   head() {
     return {
-      title: brand.education.name + ' - Home Page'
+      title: 'Adaś Lipiński'
     }
   },
   computed: {
