@@ -10,8 +10,7 @@
               </h3>
             </div>
             <h5 class="subtitle mr-0 pr-0">
-              Nazywam się <b>Adaś</b> i mam
-
+              Nazywam się <b>Ada,</b> i mam
               <span v-if="age < 2">
                 prawie dwa lata
               </span>
@@ -19,14 +18,10 @@
                 niedawno skończyłem 2 lata
               </span>
               <br />
-<!--              <span style="font-size: 20px">-->
               Chcesz mi pomóc nie odrywając rąk od klawiatury?
               <br />
               <br />
-
               <b>Przelej pieniądze na naszą fundację!</b>
-<!--              </span>-->
-
               <br />
               <br />
               Dziękujemy za wsparcie!
