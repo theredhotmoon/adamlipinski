@@ -144,7 +144,6 @@
 import logo from '~/static/images/adas-lipinski-logo.png'
 import link from '~/static/text/link'
 import brand from '~/static/text/brand'
-import navMenu from './menu'
 import Settings from './Settings'
 import MobileMenu from './MobileMenu'
 import Hidden from '../Hidden'

@@ -2,47 +2,42 @@
   <div class="mobile-nav">
     <div
       :class="{ 'menu-open': open }"
-      class="menu"
+      class="menu hidden"
     >
       <v-list
         dense
         tag="nav"
       >
         <v-list-item
-          v-for="(item, index) in navMenu"
-          :key="index"
-          :href="'#' + item"
+          href="#aktualnosci"
           link
-          :style="{ animationDuration: index * 0.15 + 's' }"
+          :style="{ animationDuration: 4 * 0.15 + 's' }"
         >
           <v-list-item-content>
             <v-list-item-title class="menu-list">
-              {{ $t('educationLanding.header_'+item) }}
+                Aktualności
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
         <v-list-item
-          :href="link.education.contact"
+          href="#statystyki"
           link
-          :style="{ animationDuration: navMenu.length * 0.15 + 's' }"
+          :style="{ animationDuration: 4 * 0.15 + 's' }"
         >
           <v-list-item-content>
             <v-list-item-title class="menu-list">
-              {{ $t('educationLanding.header_contact') }}
+                Statystyki
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-divider class="divider-sidebar" />
         <v-list-item
-          v-for="item in ['login', 'register']"
-          :key="item"
-          :href="link.education[item]"
-          :style="{ animationDuration: navMenu.length * 0.15 + 's' }"
+          href="#o-adasiu"
           link
+          :style="{ animationDuration: 4 * 0.15 + 's' }"
         >
           <v-list-item-content>
             <v-list-item-title class="menu-list">
-              {{ $t('educationLanding.header_'+item) }}
+                O Adasiu
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
@@ -56,14 +51,10 @@
 </style>
 
 <script>
-import navMenu from './menu'
-import link from '~/static/text/link'
 
 export default {
   data() {
     return {
-      link: link,
-      navMenu: navMenu
     }
   },
   props: {

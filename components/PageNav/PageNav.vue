@@ -13,7 +13,7 @@
         <a
           v-for="(item, index) in menuList"
           :key="index"
-          :style="{ top: 50 * (menu.length - item.id) + 'px' }"
+          :style="{ top: 50 * (menuList.length - item.id) + 'px' }"
           :href="item.url"
           class="anchor-link scrollactive-item"
           @click="setOffset(item.offset)"
@@ -61,7 +61,6 @@
 </style>
 
 <script>
-import navMenu from '../Header/menu'
 
 let counter = 0
 function createData(name, url, offset) {
@@ -76,11 +75,9 @@ function createData(name, url, offset) {
 
 export default {
   data: () => ({
-    menu: navMenu,
     navOffset: 20,
     isRtl: false,
     show: false,
-    // todo dorób sobie to bo fajne
     menuList: [
       createData('Aktualności', '#aktualnosci'),
       createData('Statystyki', '#statystyki'),
