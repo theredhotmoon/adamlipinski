@@ -7,7 +7,6 @@ const brand = {
     logoText: 'Veluxi Education',
     projectName: 'Education',
     url: 'veluxi.ux-maestro.com/education',
-    img: '/static/images/education-logo.png',
     notifMsg:
       'Donec sit amet nulla sed arcu pulvinar ultricies commodo id ligula.'
   }

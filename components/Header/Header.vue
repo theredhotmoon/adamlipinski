@@ -187,6 +187,7 @@ export default {
       navOffset: 20,
       menuList: [
         this.buildMenuItem('Aktualności', '#aktualnosci'),
+        this.buildMenuItem('Statystyki', '#statystyki'),
         this.buildMenuItem('O Adasiu', '#o-adasiu'),
         // this.buildMenuItem('Rozliczenia', '#rozliczenia'),
         // this.buildMenuItem('Kontakt', '#kontakt'),

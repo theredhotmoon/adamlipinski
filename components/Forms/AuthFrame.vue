@@ -4,7 +4,7 @@
       <hidden point="mdUp">
         <div class="logo logo-header">
           <a :href="routerLink.education.home">
-            <img src="/images/education-logo.svg" alt="logo" />
+            a
           </a>
         </div>
       </hidden>
@@ -29,7 +29,6 @@
                       <div class="secondary-light"></div>
                     </div>
                     <div class="logo">
-                      <img src="/images/education-logo.svg" alt="logo" />
                       <p class="use-text-subtitle2">
                         {{ brand.education.projectName }}
                       </p>

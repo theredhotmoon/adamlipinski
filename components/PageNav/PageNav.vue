@@ -83,8 +83,8 @@ export default {
     // todo dorób sobie to bo fajne
     menuList: [
       createData('Aktualności', '#aktualnosci'),
-      createData('Numerologia', '#'),
-      createData('O Adasiu', '#0-adasiu')
+      createData('Statystyki', '#statystyki'),
+      createData('O Adasiu', '#o-adasiu')
     ]
   }),
   mounted() {

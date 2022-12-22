@@ -22,7 +22,6 @@
       <hidden point="mdUp">
         <div class="logo logo-header">
           <nuxt-link :to="routeLink.education.home">
-            <img :src="logo" alt="logo">
           </nuxt-link>
         </div>
       </hidden>
@@ -140,7 +139,6 @@
 </style>
 
 <script>
-import logo from '~/static/images/education-logo.svg'
 import brand from '~/static/text/brand'
 import link from '~/static/text/link'
 import Hidden from '../Hidden'
@@ -164,7 +162,6 @@ export default {
       company: '',
       message: '',
       checkbox: false,
-      logo: logo,
       brand: brand,
       routeLink: link
     }

@@ -9,7 +9,7 @@
         <section id="aktualnosci" class="space-top-short mt-16">
           <popular-course />
         </section>
-        <section id="feature" class="space-top">
+        <section id="statystyki" class="space-top">
           <feature />
         </section>
 <!--        <section id="explore">-->

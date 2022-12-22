@@ -140,13 +140,11 @@
 </style>
 
 <script>
-import logo from '~/static/images/education-logo.svg'
 import brand from '~/static/text/brand'
 
 export default {
   data: () => ({
     supporters: [],
-    logo: logo,
     brand: brand,
     lang: 'en',
     footers: [

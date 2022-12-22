@@ -2,8 +2,8 @@ export default () => {
   return new Promise(function(resolve) {
     resolve({
       foundingResults: {
-        title: 'Numerologia',
-        description: 'Rzuć okiem ile juz zebraliśmy i na co wydaliśmy!'
+        title: 'Statystyki',
+        description: 'Dziękujemy za okazaną pomoc!'
       },
       common: {
         title: 'Adaś Lipiński',
